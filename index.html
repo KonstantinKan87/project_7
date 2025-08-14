@@ -27,13 +27,15 @@
         <hr>
 
         <form class="form">
-        <input type="email" placeholder="gus.goodwin@gmail.com">
-        <input type="tel" placeholder="010-1234-5678">
+      
+        <label class="custom-input" for="email">  <input type="email"> <span class="custom-span">Email</span> </label>
+       
+        <label class="custom-input" for="tel"> <input type="tel"> <span class="custom-span">Phone</span></label>
         </form>
         <h2>What type of investor are you?</h2>
         <p>Select the type of investor you are below.</p>
         <form class="investor-type">
-            <label>
+            <label class="custom-label">
                 <input type="radio" name="type">Individual
                  <span class="info">i</span>
                 <span class="tooltip">A trust is a legal entity that holds assets for the benefit of another party.</span>
@@ -54,12 +56,11 @@
                 <span class="tooltip">A trust is a legal entity that holds assets for the benefit of another party.</span>
             </label>
         </form>
-         <p class="agreement">I am a natural person investing on my own behalf os a sole owner,join tenant,or tenant in common.</p>
         <label class="agreement">
             <input type="radio">I agree to the terms and receving notifications from iintoo 
             <a href="#">View full terms</a>
         </label> 
-       <div class="conteiner">
+       <div class="conteiner-button">
         <button class="button">Create Account</button>
         </div> 
     </main>
