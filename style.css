@@ -29,9 +29,9 @@ div.conteiner1 {
   display: flex;
   background-color: #FFFFFF;
 }
-div.form {
+/*div.form {
   margin-left: 30px;
-}
+}*/
 nav {
   display: flex;
   justify-content: space-between;
@@ -98,7 +98,7 @@ label>input {
   cursor: pointer;
   margin: 20px;
 }
-p.agreement {
+/*p.agreement {
   font-size: 12px;
   margin-top: 10px;
   color: #2A4A5C;
@@ -109,13 +109,13 @@ p.agreement {
   padding: 10px;
   border-radius: 5px;
   width: 35%;
-}
+}*/
 nav a {
   display: flex;
 }
 body {
    background: transparent;
-   margin: 0px;
+   margin: 0;
    background-color: #FFFFFF;
    border: none;
 }
@@ -156,7 +156,7 @@ span.tooltip {
 }*/
 
 .form>input {
-      border: 0.5px solid gray;
+      border: 0.5px solid #96A5B1;
       width: 200px;
       height: 30px;
       margin-top: 20px;
@@ -171,8 +171,8 @@ span.tooltip {
 }
 .custom-input input:focus {
   outline: none;
-      border: 0.5px solid gray;
-  border-left: 4px solid blue; 
+  border: 0.5px solid #96A5B1;
+  border-left: 4px solid #3698FB; 
   box-shadow: none;
 
 }
@@ -192,10 +192,18 @@ span.tooltip {
 }
 .tooltip {
   position: absolute;
-  width: 200px;
-  background-color: white;
-  border: 1px solid lightgrey;
+  width: 150px;
+  font-size: 12px;
+  background-color: #FFFFFF;
+  border: 0.5px solid #96A5B1;
   top: 30px;
-  left: -10px;;
+  left: -10px;
+  display: none;
 
+}
+span.info:hover + .tooltip {
+  display: block;
+}
+form input {
+border: 0.5px solid #96A5B1;  
 }
