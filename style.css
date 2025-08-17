@@ -28,10 +28,11 @@ hr::after {
 div.conteiner1 {
   display: flex;
   background-color: #FFFFFF;
+
 }
-/*div.form {
-  margin-left: 30px;
-}*/
+.form {
+  margin-left: 50px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -79,6 +80,7 @@ a.lnk {
 }
 .agreement {
   font-size: 12px;
+  margin-top: 50px;
 }
 label>a {
   color: #3698FB;
@@ -118,6 +120,8 @@ body {
    margin: 0;
    background-color: #FFFFFF;
    border: none;
+   width: 85%;
+   margin-left: 90px;
 }
 .info {
   position: relative;
